@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+		<li>Star Crafters Armory</li>
+    </mods>
+		<match Class="PatchOperationSequence">
+		 <operations>
+
+  <!-- ========== Tools: oh gods why is it so hard ========== -->
+
+		  <li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CoS_C14_Gun" or defName="CoS_Perdition_Flamethrower"]/tools</xpath>
+			<value>
+			  <tools>
+				<li Class="CombatExtended.ToolCE">
+				  <label>grip</label>
+				  <capacities>
+					<li>Blunt</li>
+				  </capacities>
+				  <power>2</power>
+				  <cooldownTime>1.54</cooldownTime>
+				  <chanceFactor>1.5</chanceFactor>
+				  <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+				  <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+				  <label>muzzle</label>
+				  <capacities>
+					<li>Poke</li>
+				  </capacities>
+				  <power>2</power>
+				  <cooldownTime>1.54</cooldownTime>
+				  <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+				  <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			  </tools>
+			</value>
+		  </li>
+
+  
+    <!-- ========== C-14 Gauss Impaler ========== -->
+  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CoS_CombatMedicShield"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>shield face</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>1.49</cooldownTime>
+						<chanceFactor>0.15</chanceFactor>
+						<armorPenetrationBlunt>10.375</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>shield corner</label>
+						<capacities>
+						<li>Poke</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2.30</cooldownTime>
+						<armorPenetrationBlunt>15.25</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+					</li>					
+				</tools>
+			</value>
+		</li>
+  
+			</operations>
+			</match>
+		</Operation>
+	</Patch>

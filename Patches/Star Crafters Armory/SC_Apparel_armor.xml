@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Star Crafters Armory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+			<!-- === CMC300 Armor === -->
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CMC300a"]/statBases</xpath>
+					<value>
+						<Bulk>120</Bulk>
+						<WornBulk>15</WornBulk>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC300a"]/statBases/MaxHitPoints</xpath>
+				<value>
+					<MaxHitPoints>450</MaxHitPoints>
+				</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CMC300a"]/equippedStatOffsets</xpath>
+					<value>
+						<CarryBulk>15</CarryBulk>
+						<CarryWeight>90</CarryWeight>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC300a"]/statBases/ArmorRating_Sharp</xpath>
+					<value>
+						<ArmorRating_Sharp>22</ArmorRating_Sharp>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC300a"]/statBases/ArmorRating_Blunt</xpath>
+					<value>
+						<ArmorRating_Blunt>45</ArmorRating_Blunt>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC300a"]/statBases/ArmorRating_Heat</xpath>
+					<value>
+						<ArmorRating_Heat>0.5</ArmorRating_Heat>
+					</value>
+				</li>
+			
+			<!-- === CMC405 Armor === -->
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CMC405a"]/statBases</xpath>
+					<value>
+						<Bulk>120</Bulk>
+						<WornBulk>15</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CMC405a"]/equippedStatOffsets</xpath>
+					<value>
+						<CarryBulk>15</CarryBulk>
+						<CarryWeight>90</CarryWeight>
+					</value>
+				</li>
+				
+								<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC405a"]/statBases/MaxHitPoints</xpath>
+				<value>
+					<MaxHitPoints>350</MaxHitPoints>
+				</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC405a"]/statBases/ArmorRating_Sharp</xpath>
+					<value>
+						<ArmorRating_Sharp>20</ArmorRating_Sharp>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC405a"]/statBases/ArmorRating_Blunt</xpath>
+					<value>
+						<ArmorRating_Blunt>40</ArmorRating_Blunt>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC405a"]/statBases/ArmorRating_Heat</xpath>
+					<value>
+						<ArmorRating_Heat>0.3</ArmorRating_Heat>
+					</value>
+				</li>
+			
+			<!-- === CMC600 Armor === -->
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CMC600a"]/statBases</xpath>
+					<value>
+						<Bulk>160</Bulk>
+						<WornBulk>20</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CMC600a"]/equippedStatOffsets</xpath>
+					<value>
+						<CarryBulk>20</CarryBulk>
+						<CarryWeight>90</CarryWeight>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC600a"]/statBases/MaxHitPoints</xpath>
+				<value>
+					<MaxHitPoints>550</MaxHitPoints>
+				</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC600a"]/statBases/ArmorRating_Sharp</xpath>
+					<value>
+						<ArmorRating_Sharp>30</ArmorRating_Sharp>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC600a"]/statBases/ArmorRating_Blunt</xpath>
+					<value>
+						<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CMC600a"]/statBases/ArmorRating_Heat</xpath>
+					<value>
+						<ArmorRating_Heat>1</ArmorRating_Heat>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

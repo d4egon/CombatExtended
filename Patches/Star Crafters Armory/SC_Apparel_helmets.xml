@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Star Crafters Armory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+			<!-- === CMC300H === -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="CMC300H" or defName="CMC300Ha" or defName="CMC300Hb"]/statBases</xpath>
+				<value>
+					<Bulk>30</Bulk>
+					<WornBulk>10</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC300H" or defName="CMC300Ha" or defName="CMC300Hb"]/statBases/MaxHitPoints</xpath>
+				<value>
+					<MaxHitPoints>350</MaxHitPoints>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC300H" or defName="CMC300Ha" or defName="CMC300Hb"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>20</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC300H" or defName="CMC300Ha" or defName="CMC300Hb"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>25</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="CMC300H" or defName="CMC300Ha" or defName="CMC300Hb"]/equippedStatOffsets</xpath>
+				<value>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</value>
+			</li>
+			
+			<!-- === CMC405H === -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="CMC405H"]/statBases</xpath>
+				<value>
+					<Bulk>20</Bulk>
+					<WornBulk>10</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC405H"]/statBases/MaxHitPoints</xpath>
+				<value>
+					<MaxHitPoints>250</MaxHitPoints>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC405H"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>18</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC405H"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>22</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="CMC405H"]/equippedStatOffsets</xpath>
+				<value>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</value>
+			</li>
+
+			<!-- === CMC600H === -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="CMC600H"]/statBases</xpath>
+				<value>
+					<Bulk>40</Bulk>
+					<WornBulk>15</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC600H"]/statBases/MaxHitPoints</xpath>
+				<value>
+					<MaxHitPoints>450</MaxHitPoints>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC600H"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>24</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CMC600H"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>28</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="CMC600H"]/equippedStatOffsets</xpath>
+				<value>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</value>
+			</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
