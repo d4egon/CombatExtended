@@ -25,27 +25,29 @@
 				<xpath>Defs/ThingDef[defName="Zombie"]/tools</xpath>
 				<value>
 					<tools>
-						<li Class="CombatExtended.VerbPropertiesCE">
-
-							<defaultCooldownTime>2.0</defaultCooldownTime>
+						<li Class="CombatExtended.ToolCE">
+							<cooldownTime>1.26</cooldownTime>
 							<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
 							<meleeDamageDef>ZombieBite</meleeDamageDef>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<meleeArmorPenetration>0.2</meleeArmorPenetration>
+							<armorPenetrationSharp>0.25</armorPenetrationSharp>
 						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<defaultCooldownTime>2.0</defaultCooldownTime>
+						<li Class="CombatExtended.ToolCE">
+							<cooldownTime>1.26</cooldownTime>
 							<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
 							<meleeDamageDef>Scratch</meleeDamageDef>
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.2</meleeArmorPenetration>
+							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.35</armorPenetrationSharp>
 						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<defaultCooldownTime>2.0</defaultCooldownTime>
+						<li Class="CombatExtended.ToolCE">
+							<cooldownTime>1.26</cooldownTime>
 							<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
 							<meleeDamageDef>Scratch</meleeDamageDef>
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.2</meleeArmorPenetration>
+							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.35</armorPenetrationSharp>
 						</li>
 					</tools>
 				</value>
