@@ -27,24 +27,30 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<cooldownTime>1.26</cooldownTime>
-							<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-							<meleeDamageDef>ZombieBite</meleeDamageDef>
+							<power>4</power>
+							<capacities>
+								<li>ZombieBite</li>
+							</capacities>		
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.2</meleeArmorPenetration>
+							<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
 							<armorPenetrationSharp>0.25</armorPenetrationSharp>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<cooldownTime>1.26</cooldownTime>
-							<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-							<meleeDamageDef>Scratch</meleeDamageDef>
+							<power>1</power>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>						
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
 							<armorPenetrationSharp>0.35</armorPenetrationSharp>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<cooldownTime>1.26</cooldownTime>
-							<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-							<meleeDamageDef>Scratch</meleeDamageDef>
+							<power>1</power>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>	
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
 							<armorPenetrationSharp>0.35</armorPenetrationSharp>
